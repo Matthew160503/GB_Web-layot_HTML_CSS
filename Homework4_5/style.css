@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020a18;
+}
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 160px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 40px 16px;
+}
+
+.header-link:hover {
+    color: #3A68B8;
+}
+
+.subtitle {
+    color: #3A68B8;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+
+.discription {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%; 
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.main-link {
+    padding: 1rem 2rem;
+    background-color: #3A68B8;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: Open Sans;
+    font-size: 20px; 
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 20px;   
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left {
+    width: 46%;
+}
+
+.main-right {
+    width: 46%;
+    background-color: #020a18;
+}
+
+.main {
+    margin-bottom: 200px;
+}
+
+.second_main{
+    margin-top: 256px;
+}
+
+.second_main_left{
+    width: 46%;
+}
+
+.second_main_right{
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.s_subtitle {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 30px;
+}
+
+.second-link{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #3A68B8;
+    width: 150px;
+}
+
+.content {
+    margin-top: 264px;
+    margin-bottom: 243px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 362px);
+    justify-content: center;
+}
+
+.item {
+    border-radius: 10px;
+    background: #132035;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+}
+
+.item_big {
+    grid-column: span 2;
+    grid-row: span 2;
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+}
+
+.heading {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.item_text {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.third-main-left{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_subtitle{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 40px; 
+}
+
+.t_discription {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%; 
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+
+.third-main-right{
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-main{
+    margin-bottom: 221px;
+}
+
+.s-container {
+    width: 1146px;
+    margin: 0 auto;
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    height: 156px;
+}
+
+.sub-subtitle{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 33px;
+}
+
+.super-subtitle{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.super-subtitle-1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 24.4px; 
+}
+
+.super-subtitle-2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 26px; 
+}
+
+.last-discription{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.6;
+}
+
+.info-left{
+    width: 30%;
+}
+
+.info-center{
+    width: 30%;
+}
+
+.info-right{
+    width: 30%;
+}
