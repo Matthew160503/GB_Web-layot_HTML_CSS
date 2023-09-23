@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1146px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1% 1%;
+}
+
+.center{
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+}
+
+body{
+    background-color: #020A18;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header-link{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 39px 3%;
+}
+
+.header-link:hover {
+    color: #3A68B8;
+}
+
+.top_content{
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    gap: 128px;
+}
+
+.subtitle{
+    color: #3A68B8;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.title{
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+    padding-bottom: 40px;
+}
+
+.text{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    padding-bottom: 50px;
+}
+
+.top_button{
+    display: flex;
+    gap: 10px;
+}
+
+.buttons{
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: #3A68B8;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top_info{
+    width: 55%;
+}
+
+.top_img{
+    width: 35%;
+}
+
+.t_img img{
+    width: 100%;
+}
+
+.s_img img{
+    width: 100%;
+}
+
+.top_logos{
+    margin-top: 197px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_content{
+    margin-top: 256px;
+    display: flex;
+    gap: 68px;
+}
+
+.main_img{
+    width: 51,8%;
+}
+
+.main_info{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 42.23%
+}
+
+
+.small_title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 30px;
+}
+
+.description{
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    padding-bottom: 50px;
+}
+
+.possibilities{
+    padding-top: 264px;
+    padding-bottom: 243px;
+    display: grid;
+    grid-template-columns: repeat(3, 31.5%);
+    gap: 30px;
+    justify-content: center;
+}
+
+.item{
+    border-radius: 10px;
+    background: #132035;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+}
+
+.item_big{
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: 60px;
+}
+
+.heading{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    opacity: 0.7;
+}
+
+.item_text{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px; 
+    opacity: 0.7;
+}
+
+.add{
+    margin-top: 0;
+}
+
+.t_add{
+    padding-bottom: 40px;
+}
+
+.addition{
+    padding-bottom: 20px;
+}
+
+.information{
+    margin-top: 269px;
+    width: 100%;
+    display: flex;
+    gap: 2.5%;
+    margin-bottom: 49px;
+}
+
+.size{
+    width: 31.6%;
+}
+
+.info_title{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 33px;
+}
+
+.help_info{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contacts{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.info_text{
+    color:#FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.6;
+    width: 72%;
+}
+
+.figure{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 27.6%;
+    gap: 24px;
+}
+
+@media (max-width: 1024px){
+    .center{
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+    }
+
+    .top_content{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .top_info{
+        width: 80%;
+    }
+
+    .top_img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .t_img img{
+        width: 55%;
+    }
+
+    .top_logos{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 32px;
+        column-gap: 9%;
+    }
+
+    .main_content{
+        margin-top: 277px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main_img{
+        width: 79%;
+    }
+
+    .main_info{
+        width: 65%;
+    }
+
+    .del{
+        display: none;
+    }
+
+    .possibilities{
+        grid-template-columns: repeat(1, 48%);
+        gap: 32px;
+    }
+
+    .add{
+        margin-top: 0;
+    }
+
+    .i_add{
+        width: 72.8%;
+    }
+
+    .addition{
+        width: 84%;
+    }
+
+    .s_img{
+        width: 76.3%;
+    }
+
+    .information{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .size{
+        width: 48%;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        padding: 0% 0%;
+    }
+    .center{
+        padding-left: calc(50% - 172px);
+        padding-right: calc(50% - 172px);
+    }
+
+    .header-link{
+        font-size: 14px;
+    }
+
+    .top_content{
+        margin-top: 64px;
+    }
+
+    .top_info{
+        text-align: center;
+    }
+
+    .subtitle{
+        font-size: 14px;
+        padding-bottom: 16px;
+    }
+
+    .title{
+        font-size: 25px;
+        padding-bottom: 64px;
+    }
+
+    .text{
+        padding-bottom: 39px;
+    }
+
+    .top_button{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .t_img img{
+        width: 100%;
+    }
+
+    .top_logos{
+        margin-top: 128px;
+    }
+
+    .main_content{
+        margin-top: 204px;
+        text-align: center;
+    }
+
+    .main_img{
+        width: 100%;
+    }
+
+    .main_info{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .small_title{
+        font-size: 24px;
+        padding-bottom: 16px;
+    }
+
+    .description{
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+
+    .possibilities{
+        grid-template-columns: repeat(1, 100%);
+        margin-bottom: 96px;
+        padding-bottom: 0px;
+    }
+
+    .add{
+        margin-top: 0;
+        gap: 32px;
+    }
+
+    .addition {
+        width: 100%;
+    }
+
+    .information{
+        margin-top: 209px;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .size{
+        width: 100%;
+    }
+
+    .center_{
+        order: -1;
+    }
+
+    .figure{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .info_text{
+        width: 100%;
+    }
+}
